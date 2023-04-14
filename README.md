@@ -32,12 +32,12 @@ npm install
 
 npm start
 
-OR
+NOTE:
 
-using buildclient.sh to build client and copy to server
+Build client and copy to server: run ./buildclient.sh 
 
-using deploy.sh to deploy the application to docker
-
+Deploy the application to docker: run  ./deploy
+ 
 
 ## Resources:
 
@@ -48,7 +48,17 @@ using deploy.sh to deploy the application to docker
   React Bootstrap: https://www.npmjs.com/package/react-bootstrap
   
   Combobox: https://reach.tech/combobox/
+  
+## General Architecture of Zero touch Infrastructure Management Orchestration (Based on ZSM ETSI)
 
+![output-onlinepngtools](https://user-images.githubusercontent.com/58769109/232014701-383b4db6-6968-447d-a4fe-56acab7307a6.png)
+
+
+
+
+## ZIMO Broker Webapp Architecture
+
+![output-onlinepngtools (1)](https://user-images.githubusercontent.com/58769109/232015289-f1369f56-8dc7-47f1-886c-ca7af71a367d.png)
 
 
   
