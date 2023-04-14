@@ -1,0 +1,9 @@
+.ChartContainer{
+    height:24.5vh;
+    width:33%;
+}
+
+.ChartContainer .Chart{
+    height:20vh;
+    width: 100%;
+}

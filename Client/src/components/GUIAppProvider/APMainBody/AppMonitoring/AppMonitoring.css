@@ -1,0 +1,22 @@
+.AppMonitoring h2 {
+    margin-left: 2vh;
+    color: black;
+    height: 3.5vh;
+  }
+  .AppMonitoring .MapContainer {
+    height: 49vh;
+    width:100%;
+    color: black;
+  }
+  
+.AppMonitoring  .table-App-Instances {
+    max-height: 30vh;
+  }
+  
+  .AppMonitoring .charts {
+    float:left;
+    display: flex;
+    height: 24.5vh;
+    width:50%;
+  }
+ 

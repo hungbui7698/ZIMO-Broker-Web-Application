@@ -1,0 +1,20 @@
+.DeploymentOptions h2 {
+  margin-left: 2vh;
+  color: black;
+  height: 3.5vh;
+}
+
+.DeploymentOptions .DeploymentOptionsBody {
+  display: block;
+  max-height: 70vh;
+  overflow-y: scroll;
+}
+.DeploymentOptions .DeploymentOptionsBody .ButtonContainer .bottom {
+  margin-top: auto;
+}
+
+.DeploymentOptions .DeploymentOptionsBody .ButtonContainer{
+  display:flex;
+  flex-direction: column;
+}
+

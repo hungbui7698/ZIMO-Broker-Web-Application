@@ -1,0 +1,21 @@
+.IPMonitoring h2 {
+  margin-left: 2vh;
+  color: black;
+  height: 3.5vh;
+}
+.IPMonitoring .MapContainer {
+  height: 49vh;
+  width:100%;
+  color: black;
+}
+
+.IPMonitoring  .table-App-Instances {
+  max-height: 30vh;
+}
+
+.IPMonitoring .charts {
+  float:left;
+  display: flex;
+  height: 24.5vh;
+  width:50%;
+}

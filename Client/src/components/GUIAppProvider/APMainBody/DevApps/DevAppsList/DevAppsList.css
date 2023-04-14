@@ -1,0 +1,68 @@
+.DevAppsList body {
+    font-family: "open sans", sans-serif;
+    font-size: 16px;
+  }
+  .DevAppsList .filter {
+    float: left;
+  }
+  
+  .DevAppsList .filter .inputfilter {
+    height: 3vh;
+    width: 30vh;
+  }
+  .DevAppsList table {
+    width: 100%;
+  }
+  
+  .DevAppsList table thead th {
+    height: 3vh;
+    padding:0rem 0.5rem;
+  }
+  
+  .DevAppsList table thead div.ascending::after {
+    content: "👇";
+    display: inline-block;
+    margin-left: 1em;
+  }
+  
+  .DevAppsList table thead div.descending::after {
+    content: "☝️";
+    display: inline-block;
+    margin-left: 1em;
+  }
+  
+  
+  .DevAppsList table thead tr th div {
+    width: fit-content;
+    cursor: pointer;
+  }
+  .DevAppsList table .body {
+    display: block;
+    max-height: 79vh;
+    overflow-y: scroll;
+  }
+  
+  .DevAppsList table thead,
+  tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed; /* even columns width , fix width of table too*/
+  }
+  .DevAppsList table thead {
+    width: calc(
+      100% - 1em
+    ); /* scrollbar is average 1em/16px width, remove it from thead width */
+  }
+  
+  .DevAppsList table .ProductTable .button {
+    position: relative;
+    z-index: 1;
+    padding: 0.1rem;
+    
+    margin: 0px 5px;
+   
+  }
+  
+  .DevAppsList .body .active{
+    background-color: #39afdd;
+}

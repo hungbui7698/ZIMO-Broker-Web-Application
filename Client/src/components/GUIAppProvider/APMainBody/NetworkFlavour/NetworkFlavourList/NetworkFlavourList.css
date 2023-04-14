@@ -1,0 +1,66 @@
+.NetworkFlavourList {
+  position: relative;
+  height: 85vh;
+  padding: 0px 10px;
+}
+
+.NetworkFlavourList body {
+  font-family: "open sans", sans-serif;
+  font-size: 16px;
+}
+.NetworkFlavourList .filter {
+  float: left;
+  height:3vh;
+}
+
+.NetworkFlavourList .filter .inputfilter {
+  height: 3vh;
+  width: 25vh;
+}
+.NetworkFlavourList table {
+  width: 100%;
+}
+
+.NetworkFlavourList table thead th {
+  height: 4vh;
+}
+
+.NetworkFlavourList table thead div.ascending::after {
+  content: "👇";
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.NetworkFlavourList table thead div.descending::after {
+  content: "☝️";
+  display: inline-block;
+  margin-left: 1em;
+}
+
+
+.NetworkFlavourList table thead tr th div {
+  width: fit-content;
+  cursor: pointer;
+}
+.NetworkFlavourList table .body {
+  display: block;
+  max-height: 78vh;
+  overflow-y: scroll;
+}
+
+.NetworkFlavourList table thead,
+tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed; /* even columns width , fix width of table too*/
+}
+.NetworkFlavourList table thead {
+  width: calc(
+    100% - 1em
+  ); /* scrollbar is average 1em/16px width, remove it from thead width */
+}
+
+
+.NetworkFlavourList .active{
+  background-color: #39afdd;
+}

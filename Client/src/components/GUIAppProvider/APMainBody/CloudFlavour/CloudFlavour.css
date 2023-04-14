@@ -1,0 +1,10 @@
+.Flavour h2 {
+  color: black;
+  height: 5vh;
+  margin-left: 2vh;
+  margin-bottom: 0;
+}
+
+.refreshButton {
+  margin: 0 10px;
+}

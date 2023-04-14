@@ -1,0 +1,24 @@
+.AppGroupEdit {
+  height: 70vh;
+}
+.AppGroupEdit .userInput{
+  width:6vh;
+}
+.AppGroupEdit .fullbody{
+  height: 62vh;
+  overflow-y: scroll;
+  display: block;
+}
+
+.AppGroupEdit .header {
+  height: 3vh;
+  padding-top:0px;
+}
+
+.AppGroupEdit .searchApp{
+  width:100%;
+  padding-top: 0px;
+  height: 2.8vh;
+}
+
+ 

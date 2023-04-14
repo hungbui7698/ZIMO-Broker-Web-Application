@@ -1,0 +1,67 @@
+.AppMonitoringList body {
+    font-family: "open sans", sans-serif;
+    font-size: 16px;
+  }
+  .AppMonitoringList .filter {
+    float: left;
+  }
+  
+  .AppMonitoringList .filter .inputfilter {
+    height: 3vh;
+    width: 30vh;
+  }
+  .AppMonitoringList table {
+    width: 100%;
+  }
+  
+  .AppMonitoringList table thead th {
+    height: 4vh;
+  }
+  
+  .AppMonitoringList table thead div.ascending::after {
+    content: "👇";
+    display: inline-block;
+    margin-left: 1em;
+  }
+  
+  .AppMonitoringList table thead div.descending::after {
+    content: "☝️";
+    display: inline-block;
+    margin-left: 1em;
+  }
+  
+  
+  .AppMonitoringList table thead tr th div {
+    width: fit-content;
+    cursor: pointer;
+  }
+  .AppMonitoringList table .body {
+    display: block;
+    max-height: 30vh;
+    overflow-y: scroll;
+  }
+  
+  .AppMonitoringList table thead,
+  tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed; /* even columns width , fix width of table too*/
+  }
+  .AppMonitoringList table thead {
+    width: calc(
+      100% - 1em
+    ); /* scrollbar is average 1em/16px width, remove it from thead width */
+  }
+  
+  .AppMonitoringList table .ProductTable .button {
+    position: relative;
+    z-index: 1;
+    padding: 0.1rem;
+    
+    margin: 0px 5px;
+   
+  }
+  
+  .AppMonitoringList .body .active{
+    background-color: #39afdd;
+}

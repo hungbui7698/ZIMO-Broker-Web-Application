@@ -1,0 +1,31 @@
+.AppGroup {
+    width:100%;
+
+
+
+}
+
+.AppGroup .GroupName{
+    width:20vh;
+
+
+}
+.AppGroup .ListApps{
+    width:30vh;
+
+}
+.AppGroup .star{
+    float:right;
+}
+
+.AppGroup .active{
+    background-color: #39afdd;
+}
+.button {
+    position: relative;
+    z-index: 1;
+    padding: 0.1rem;
+    
+    margin: 0px 5px;
+   
+  }

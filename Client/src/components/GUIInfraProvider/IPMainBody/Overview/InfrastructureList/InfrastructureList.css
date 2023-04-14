@@ -1,0 +1,66 @@
+.InfrastructureList {
+  position: relative;
+  height: 85vh;
+  padding: 0px 10px;
+}
+
+.InfrastructureList body {
+  font-family: "open sans", sans-serif;
+  font-size: 16px;
+}
+.InfrastructureList .filter {
+  float: left;
+  height:3vh;
+}
+
+.InfrastructureList .filter .inputfilter {
+  height: 3vh;
+  width: 25vh;
+}
+.InfrastructureList table {
+  width: 100%;
+}
+
+.InfrastructureList table thead th {
+  height: 4vh;
+}
+
+.InfrastructureList table thead div.ascending::after {
+  content: "👇";
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.InfrastructureList table thead div.descending::after {
+  content: "☝️";
+  display: inline-block;
+  margin-left: 1em;
+}
+
+
+.InfrastructureList table thead tr th div {
+  width: fit-content;
+  cursor: pointer;
+}
+.InfrastructureList table .body {
+  display: block;
+  max-height: 78vh;
+  overflow-y: scroll;
+}
+
+.InfrastructureList table thead,
+tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed; /* even columns width , fix width of table too*/
+}
+.InfrastructureList table thead {
+  width: calc(
+    100% - 1em
+  ); /* scrollbar is average 1em/16px width, remove it from thead width */
+}
+
+
+.InfrastructureList .active{
+  background-color: #39afdd;
+}

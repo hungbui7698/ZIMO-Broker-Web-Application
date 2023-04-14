@@ -1,0 +1,67 @@
+.IPMonitoringList body {
+  font-family: "open sans", sans-serif;
+  font-size: 16px;
+}
+.IPMonitoringList .filter {
+  float: left;
+}
+
+.IPMonitoringList .filter .inputfilter {
+  height: 3vh;
+  width: 30vh;
+}
+.IPMonitoringList table {
+  width: 100%;
+}
+
+.IPMonitoringList table thead th {
+  height: 4vh;
+}
+
+.IPMonitoringList table thead div.ascending::after {
+  content: "👇";
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.IPMonitoringList table thead div.descending::after {
+  content: "☝️";
+  display: inline-block;
+  margin-left: 1IP
+}
+
+
+.IPMonitoringList table thead tr th div {
+  width: fit-content;
+  cursor: pointer;
+}
+.IPMonitoringList table .body {
+  display: block;
+  max-height: 30vh;
+  overflow-y: scroll;
+}
+
+.IPMonitoringList table thead,
+tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed; /* even columns width , fix width of table too*/
+}
+.IPMonitoringList table thead {
+  width: calc(
+    100% - 1em
+  ); /* scrollbar is average 1em/16px width, remove it from thead width */
+}
+
+.IPMonitoringList table .ProductTable .button {
+  position: relative;
+  z-index: 1;
+  padding: 0.1rem;
+  
+  margin: 0px 5px;
+ 
+}
+
+.IPMonitoringList .body .active{
+  background-color: #39afdd;
+}

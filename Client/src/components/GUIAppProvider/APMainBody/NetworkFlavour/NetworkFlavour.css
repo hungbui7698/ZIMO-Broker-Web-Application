@@ -1,0 +1,21 @@
+.NetworkFlavour h2 {
+  margin-left: 2vh;
+  color: black;
+  height: 5vh;
+  margin-bottom: 0;
+}
+
+.NetworkFlavour .refreshButton {
+  margin: 0 10px;
+}
+
+
+.NetworkFlavour .leftContainer {
+  float: left;
+  width: 25%;
+}
+
+.NetworkFlavour .rightContainer {
+  float: right;
+  width: 75%;
+}

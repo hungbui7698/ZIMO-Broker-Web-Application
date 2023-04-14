@@ -1,0 +1,14 @@
+.AppInstances h2 {
+  margin-left: 2vh;
+  color: black;
+  height: 5vh;
+  margin-bottom: 0;
+}
+.AppInstances .MapContainer {
+  height: 49vh;
+  color: black;
+}
+
+.AppInstances .table-App-Instances {
+  max-height: 86.5vh;
+}

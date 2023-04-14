@@ -1,0 +1,26 @@
+.Overview h2 {
+  margin-left: 2vh;
+  color: black;
+  height: 5vh;
+  margin-bottom: 0;
+}
+
+.Overview .refreshButton {
+  margin: 0 10px;
+}
+
+
+.Overview .leftContainer {
+  float: left;
+  width: 17%;
+}
+
+.Overview .middleContainer {
+  float:left;
+  width: 30%;
+}
+
+.Overview .rightContainer {
+  float: right;
+  width: 53%;
+}

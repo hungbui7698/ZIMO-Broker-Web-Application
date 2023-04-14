@@ -1,0 +1,65 @@
+.ProductTable body {
+  font-family: "open sans", sans-serif;
+  font-size: 16px;
+}
+.ProductTable .filter {
+  float: left;
+}
+
+.ProductTable .filter .inputfilter {
+  height: 3vh;
+  width: 30vh;
+}
+.ProductTable table {
+  width: 100%;
+}
+
+.ProductTable table thead th {
+  height: 3vh;
+  padding:0rem 0.5rem;
+}
+
+.ProductTable table thead div.ascending::after {
+  content: "👇";
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.ProductTable table thead div.descending::after {
+  content: "☝️";
+  display: inline-block;
+  margin-left: 1em;
+}
+
+
+.ProductTable table thead tr th div {
+  width: fit-content;
+  cursor: pointer;
+}
+.ProductTable table .body {
+  display: block;
+  max-height: 79vh;
+  overflow-y: scroll;
+}
+
+.ProductTable table thead,
+tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed; /* even columns width , fix width of table too*/
+}
+.ProductTable table thead {
+  width: calc(
+    100% - 1em
+  ); /* scrollbar is average 1em/16px width, remove it from thead width */
+}
+
+.ProductTable table .ProductTable .button {
+  position: relative;
+  z-index: 1;
+  padding: 0.1rem;
+  
+  margin: 0px 5px;
+ 
+}
+

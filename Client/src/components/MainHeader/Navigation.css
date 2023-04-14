@@ -1,0 +1,53 @@
+.nav{
+  position: absolute;
+  right:0px;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.nav li {
+  margin: 0;
+  margin-left: 2rem;
+  color:white
+}
+
+.nav div {
+  font: inherit;
+
+  padding: 0.5rem 1.5rem;
+  color: white;
+  cursor: pointer;
+ 
+}
+
+.nav button:focus {
+  outline: none;
+}
+
+.nav div:hover,
+.nav div:active {
+  color:grey;
+ 
+  cursor: pointer;
+}
+
+
+.nav img{
+  border-radius: 50%;
+  height:3.5vh;
+  float:right;
+  padding:3px;
+  
+}
+
+.nav .user{
+  margin-left: 0px;
+}

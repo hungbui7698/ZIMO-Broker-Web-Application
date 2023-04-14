@@ -1,0 +1,68 @@
+.AppInstanceList body {
+    font-family: "open sans", sans-serif;
+    font-size: 16px;
+  }
+  .AppInstanceList .filter {
+    float: left;
+  }
+  
+  .AppInstanceList .filter .inputfilter {
+    height: 3vh;
+    width: 30vh;
+  }
+  .AppInstanceList table {
+    width: 100%;
+  }
+  
+  .AppInstanceList table thead th {
+    height: 3vh;
+    padding:0rem 0.5rem;
+  }
+  
+  .AppInstanceList table thead div.ascending::after {
+    content: "👇";
+    display: inline-block;
+    margin-left: 1em;
+  }
+  
+  .AppInstanceList table thead div.descending::after {
+    content: "☝️";
+    display: inline-block;
+    margin-left: 1em;
+  }
+  
+  
+  .AppInstanceList table thead tr th div {
+    width: fit-content;
+    cursor: pointer;
+  }
+  .AppInstanceList table .body {
+    display: block;
+    max-height: 79vh;
+    overflow-y: scroll;
+  }
+  
+  .AppInstanceList table thead,
+  tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed; /* even columns width , fix width of table too*/
+  }
+  .AppInstanceList table thead {
+    width: calc(
+      100% - 1em
+    ); /* scrollbar is average 1em/16px width, remove it from thead width */
+  }
+  
+  .AppInstanceList table .ProductTable .button {
+    position: relative;
+    z-index: 1;
+    padding: 0.1rem;
+    
+    margin: 0px 5px;
+   
+  }
+  
+  .AppInstanceList .body .active{
+    background-color: #39afdd;
+}

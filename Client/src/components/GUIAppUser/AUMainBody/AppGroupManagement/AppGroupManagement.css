@@ -1,0 +1,23 @@
+.AppGroupManagement h2 {
+  margin-left: 2vh;
+  color: black;
+  height: 5vh;
+  margin-bottom: 0;
+}
+
+
+.AppGroupManagement .fullbody {
+  display: block;
+    max-height: 79vh;
+    overflow-y: scroll;
+}
+
+.AppGroupManagement table thead th {
+  height: 3vh;
+  padding:0rem 0.5rem;
+}
+
+.AppGroupManagement .inputfilter {
+  height: 3vh;
+  width: 30vh;
+}

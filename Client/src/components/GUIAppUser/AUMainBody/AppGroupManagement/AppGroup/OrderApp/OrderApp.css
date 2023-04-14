@@ -1,0 +1,31 @@
+.OrderAppGroup h2 {
+  margin-left: 2vh;
+  color: black;
+  height: 3.5vh;
+}
+.OrderAppGroup .MapContainer {
+  height: 49vh;
+  color: black;
+}
+.OrderAppGroup .InputContainer {
+  height: 3vh;
+  width:100%;
+  margin-bottom: 2vh;
+}
+.OrderAppGroup .InputContainer .AreaInfo {
+  height: 100%;
+  color: black;
+  float: left;
+  padding: 0vh 1vh;
+  
+}
+
+.OrderAppGroup .InputContainer .AreaInfo .input {
+  margin-left: 1vh;
+  height: 100%;
+}
+
+.selectAppGroup{
+    margin-left: 10px;
+    width:30vh
+}

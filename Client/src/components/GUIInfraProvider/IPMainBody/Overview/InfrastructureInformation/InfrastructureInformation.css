@@ -1,0 +1,24 @@
+.InfrastructureInformation {
+    position: relative;
+    padding: 0px 10px;
+  
+    width: 100%;
+    height: 80vh;
+  }
+  
+  
+  
+  .InfrastructureInformation .table-scroll {
+    height: 85vh;
+    overflow: auto;
+  }
+  
+  .InfrastructureInformation .inputfield{
+    width:5vh;
+    height: 2vh;
+  }
+  
+  .buttonright {
+    float:right;
+    margin:5px 5px;
+  }

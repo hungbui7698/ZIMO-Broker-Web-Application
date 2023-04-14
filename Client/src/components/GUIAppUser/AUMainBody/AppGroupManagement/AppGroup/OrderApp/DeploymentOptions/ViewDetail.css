@@ -1,0 +1,11 @@
+.DeploymentOptions .DeploymentOptionsBody .ontop{
+    position: absolute;
+    margin-left:-46vh;
+    margin-top:-6rem;
+    width:45vh;
+    background-color: white;
+  }
+  
+  .DeploymentOptions .DeploymentOptionsBody .windowcontainer{
+    position:relative
+  }
